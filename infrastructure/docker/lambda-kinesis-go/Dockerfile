@@ -7,5 +7,4 @@ ENV GO111MODULE on
 WORKDIR /lambda-kinesis-go
 RUN apt update
 
-RUN apt install -y mysql-client
-RUN apt-get install -y default-libmysqlclient-dev vim
+RUN apt-get install -y default-libmysqlclient-dev vim zip unzip
