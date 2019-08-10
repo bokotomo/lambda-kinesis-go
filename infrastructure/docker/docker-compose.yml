@@ -1,0 +1,13 @@
+version: "3.6"
+services:
+  lambda-kinesis-go:
+    build:
+      context: ./lambda-kinesis-go/
+      dockerfile: Dockerfile
+    container_name: "lambda-kinesis-go"
+    volumes:
+      - ../../:/lambda-kinesis-go
+    tty: true
+    expose:
+      - 80
+    privileged: true
