@@ -1,5 +1,7 @@
 # lambda-kinesis-go
 
+# kinesis 
+https://docs.aws.amazon.com/ja_jp/streams/latest/dev/fundamental-stream.html  
 
 # setup
 ```

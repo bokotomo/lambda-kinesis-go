@@ -1,6 +1,7 @@
 # project
 handler
 handler.zip
+.env
 
 # os
 .DS_Store
